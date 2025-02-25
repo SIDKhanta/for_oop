@@ -1,0 +1,3 @@
+C:/Users/Artem/source/repos/for_oop/build/CMakeFiles/for_oop.dir
+C:/Users/Artem/source/repos/for_oop/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Artem/source/repos/for_oop/build/CMakeFiles/ZERO_CHECK.dir

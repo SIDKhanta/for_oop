@@ -1,0 +1,10 @@
+^C:\USERS\ARTEM\SOURCE\REPOS\FOR_OOP\BUILD\CMAKEFILES\BE81D39C0AB29EB92412A5464C74C053\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Artem/source/repos/for_oop -BC:/Users/Artem/source/repos/for_oop/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Artem/source/repos/for_oop/build/for_oop.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
