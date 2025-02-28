@@ -1,13 +1,13 @@
 #include <iostream>
 
-int Addition(int a, int b) {
+inline int Addition(int a, int b) {
 	return (a + b);
 }
 
-int Substraction(int a, int b) {
+inline int Substraction(int a, int b) {
 	return (a - b);
 }
 
-int Multiplication(int a, int b) {
+inline int Multiplication(int a, int b) {
 	return (a * b);
 }
